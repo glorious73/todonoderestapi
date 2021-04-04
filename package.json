@@ -1,0 +1,25 @@
+{
+  "name": "todonoderestapi",
+  "version": "1.0.0",
+  "description": "REST API for a Todo list Node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glorious73/todonoderestapi.git"
+  },
+  "keywords": [
+    "todo",
+    "rest",
+    "api",
+    "practice"
+  ],
+  "author": "AMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glorious73/todonoderestapi/issues"
+  },
+  "homepage": "https://github.com/glorious73/todonoderestapi#readme"
+}
