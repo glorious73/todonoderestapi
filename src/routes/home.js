@@ -1,8 +1,11 @@
-const express = require('express');
+import express from "express";
+import HomeController from '../controller/HomeController.js';
+
 const router  = express.Router();
+const homeController = new HomeController();
 
 router.get('/', (req, res) => {
-    res.send("Welcome to Todo API!!");
+    res.send(homeController.handlehome());
 });
 
-module.exports = router;
+export default router;
