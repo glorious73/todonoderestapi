@@ -1,5 +1,5 @@
 import express from "express";
-import morgan from "morgan";
+import logger from "morgan";
 import path from "path";
 import home from "./routes/home.js"; // not all resolvers will find files without ".js"
 
@@ -12,7 +12,7 @@ app.use(express.urlencoded({ limit: '2mb', extended: true }));
 app.use(express.json({ limit: '2mb', extended: true }));
 
 // Logging
-app.use(morgan('dev'));
+app.use(logger('dev'));
 
 // Static
 app.use(express.static(path.join(__dirname, '../public')));
