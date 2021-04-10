@@ -1,11 +1,12 @@
 {
+  "type": "module",
   "name": "todonoderestapi",
   "version": "1.0.0",
   "description": "REST API for a Todo list Node js",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
+    "dev": "nodemon --experimental-modules src/app.js",
+    "start": "node --experimental-modules src/app.js"
   },
   "repository": {
     "type": "git",
